@@ -1,0 +1,66 @@
+/* transition order 1 */
+#navbar li a{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    transform: scale(1.1);
+    box-shadow:5px 5px 10px black ;
+    
+    
+}
+/* transform order 2 */
+#home h1{
+    text-shadow:4px 4px 6px black;
+}
+#home p{
+    text-shadow:2px 2px black;
+}
+
+/* transition order 3 */
+.btn{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+
+.btn:hover{
+    color: white;
+    background-color: rgb(36, 6, 6);
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.2);
+    text-shadow:2px 2px 6px white;
+}
+/* transition order 4 */
+.services-container #services .box {
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.services-container #services .box:hover{
+    box-shadow:0px 10px 8px rgb(65, 17, 17);
+    cursor: pointer;
+    transform: translateY(-20px);
+    background-color: rgb(238, 208, 208);
+    border: 2px solid black;
+    text-shadow:1px 1px  rgb(241, 161, 161);
+}
+/* transition order 5 */
+#clients img{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#clients img:hover{
+    transform: rotate(36deg);
+    cursor: pointer;
+}
+
+
+
+
+
+
